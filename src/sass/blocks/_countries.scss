@@ -1,0 +1,43 @@
+.countries {
+    min-height: 85px;
+    padding: 19px 0;
+    
+    &__wrapper {
+        display: flex;
+        justify-content: space-around;
+       
+
+    }
+    &__country {
+        display: flex;
+        vertical-align: top;
+        margin-right: 22px;
+        &:nth-child(5) {
+            margin-right: 0;
+        }
+    }
+    &__flag {
+        width: 28px;
+        height: 21px;
+        margin-right: 11px;
+        /* position: absolute; */
+    }
+    &__descr {
+        font-family: Roboto;
+        line-height: 18px;
+        color: #242424;
+        font-size: 12px;
+        font-weight: 300;
+        span {
+            font-size: 14px;
+            font-weight: 700;
+        }
+        a {
+            line-height: 18px;
+            color: #242424;
+            font-size: 12px;
+            font-weight: 300;
+        }
+    }
+}
+

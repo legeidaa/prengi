@@ -1,0 +1,75 @@
+footer {
+   background-color: #0082a1;
+    min-height: 497px;
+    padding-top: 50px;
+}
+.footer {
+    &__wrapper {
+        vertical-align: top;
+    }
+    &__company {
+        display: inline-block;
+        vertical-align: top;
+        width: 376px;
+        margin-right: 113px;
+        &__descr {
+            font-size: 14px;
+            margin-top: 18px;
+            line-height: 19px;
+            font-weight: 300;
+            color: #ffffff;
+        }
+    }
+    &__logo {
+        display: block;
+        margin-top: 18px;
+    }
+    &__modules {
+        display: inline-block;
+        vertical-align: top;
+        width: 263px;
+        margin-right: 73px;
+    }
+    &__industry {
+        display: inline-block;
+        vertical-align: top;
+        width: 117px;
+        margin-right: 86px;
+    }
+    &__about {
+        display: inline-block;
+        vertical-align: top;
+        width: 111px;
+    }
+    &__header {
+        font-size: 16px;
+        line-height: 19px;
+        font-weight: 700;
+        color: #ffffff;
+    }
+    &__links {
+        font-size: 14px;
+        line-height: 19px;
+        font-weight: 300;
+        color: #ffffff;
+        &:hover {
+            color:  #ffffff;
+            text-decoration: underline;
+        }
+    }
+    &__line {
+        border: 1px;
+        height: 1px;
+        opacity: 0.3;
+        margin-top: 44px;
+    }
+    &__copyright{
+        margin-top: 36px;
+        font-size: 13px;
+        line-height: 17px;
+        font-weight: 300;
+        color: #ffffff;
+        text-align: center;
+    }
+    
+}

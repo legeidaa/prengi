@@ -1,0 +1,23 @@
+@import 'libs/bootstrap-reboot';
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+@import "blocks/countries";
+@import "blocks/manage";
+@import "blocks/buttons";
+@import "blocks/with-prengi";
+@import "blocks/decision";
+@import "blocks/advantages";
+@import "blocks/deploy";
+@import "blocks/contact";
+@import "blocks/footer";
+@import "blocks/modal";
+
+@import "base/media";

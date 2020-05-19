@@ -1,0 +1,36 @@
+
+.manage__button {
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.07);
+    width: 249px;
+    height: 68px;
+    background-color: #00c2f0;
+    font-size: 16px;
+    line-height: 1;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    border: none;
+    border-radius: 5.0px;
+    margin-top: 35px; 
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.contact__button {
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.07);
+    width: 249px;
+    height: 68px;
+    background-color: #00c2f0;
+    margin-top: 74px;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    border: none;
+    border-radius: 5.0px;
+    &:hover {
+        cursor: pointer;
+    }
+}

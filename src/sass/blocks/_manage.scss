@@ -1,0 +1,171 @@
+.slick-list {
+    overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track{
+    display: flex;
+}
+
+
+
+
+.manage {
+    max-height: 700px;
+
+    &__slider-wrapper {
+        position: relative;
+        .container-wrapper {
+            position: absolute;
+            width: 100%;
+            max-height: 700px;
+            z-index: 1;
+        }
+    }
+    
+    .slide {
+        min-height: auto;
+        min-width: 1920px;
+        z-index: -1;
+    }
+
+    &__slider {
+        position: relative;
+    }
+    
+    .slick-dots{
+        position: absolute;
+        z-index: 10;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        bottom: 68px;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 0;
+        font-size: 0;
+        line-height: 1;
+        margin: 0;
+
+        li{
+            list-style: none;
+            margin: 1.5px;
+            button{
+                font-size: 0;
+                width: 11px;
+                height: 11px;
+                border: 1.0px solid white;
+                border-radius: 50%;
+                background-color: transparent;
+                padding: 0;
+            }
+        }
+        li.slick-active {
+            font-size: 0;
+            background-color: white;
+            border-radius: 50%;     
+        }
+    }
+
+    .slick-arrow{
+        position: absolute;
+        z-index: 10;
+        font-size: 0;
+
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        margin: 0;
+        background-color: transparent;
+        border: none;
+        &::before {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 50%;
+            border: 1px solid white;
+            width: 8px;
+            height: 8px;
+            transform: translateY(-50%) rotate(45deg);
+        }        
+    }
+    
+    .slick-arrow.slick-prev{
+        left: 45.5%;
+        bottom:59px;
+        &::before {
+            left: 10px;
+            border-right: 0;
+            border-top: 0;
+        }
+    }
+    
+    .slick-arrow.slick-next{
+        right: 45.5%;
+        bottom: 59px;
+        &::before {
+            right: 10px;
+            border-left: 1px;
+            border-bottom: 1px;
+        }
+    }
+
+    &__logo {
+        display: block;
+        height: 65px;
+        margin-top: 39px;
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__nav-menu {
+        display: flex;
+        justify-content: space-between;
+        width: 540px;
+        margin-top: 65px;
+        a {
+            font-family: Roboto;
+            font-size: 13px;
+            line-height: 1;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #ffffff;
+        }
+    }
+
+    &__info {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__text {
+        margin-top: 133px;
+        h1 {
+            font-size: 42px;
+            line-height: 48px;
+            font-weight: 900;
+            color: #ffffff;
+            width: 530px;
+        }
+        .subheader {
+            font-size: 24px;
+            line-height: 30px;
+            font-weight: 300;
+            color: #ffffff;
+            width: 430px;
+            margin-top: 27px;
+            span {
+                font-weight: 400;
+            }
+        }
+    }
+    &__phone {
+        margin-top: 27px;
+    }
+    .hamburger {
+        display: none;
+    }
+}
+
+

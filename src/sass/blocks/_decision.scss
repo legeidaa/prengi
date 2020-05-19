@@ -1,0 +1,17 @@
+.decision {
+    min-height: 890px;
+    background: url('../../img/second_bg.jpg');
+    background-position: center;
+
+    .slick-dots {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        li {
+            list-style: none;
+        }
+    }
+    .slick-slide-control {
+        
+    }
+}
